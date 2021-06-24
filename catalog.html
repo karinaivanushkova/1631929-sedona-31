@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
-<body>
+  <body>
     <header>
       <nav>
         <ul>
@@ -19,131 +19,133 @@
       </a>
     </header>
     <main>
-        <h1>Выбор гостиницы</h1>
-        <section>
-            <h2>Фильтры</h2>
-            <form method="GET" action="http://echo.htmlacademy.ru">
-                <fieldset>
-                    <legend>Инфраструктура:</legend>
-                    <ul>
-                        <li>
-                            <input type="checkbox" name="pool" id="filter-pool" checked>
-                            <label for="filter-pool">Бассейн</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="parking lot" id="filter-parking-lot">
-                            <label for="filter-parking-lot">Парковка</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="wi-fi" id="filter-wi-fi">
-                            <label for="filter-wi-fi">Wi-Fi</label>
-                        </li>
-                    </ul>
-                </fieldset>
-                <fieldset>
-                    <legend>Тип жилья:</legend>
-                    <ul>
-                        <li>
-                            <input type="checkbox" name="hotel" id="filter-hotel" checked>
-                            <label for="filter-hotel">Гостиница</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="motel" id="filter-motel" checked>
-                            <label for="filter-motel">Мотель</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="apartments" id="filter-apartments" checked>
-                            <label for="filter-apartments">Апартаменты</label>
-                        </li>
-                    </ul>
-                </fieldset>
-                <fieldset>
-                    <legend>Стоимость в сутки, ₽:</legend>
-                    <input type="range" min="0" max="3000" step="100" value="2700">
-                </fieldset>
-                <button type="submit">Показать</button>
-            </form>
+      <h1>Выбор гостиницы</h1>
+      <section>
+        <h2>Фильтры</h2>
+          <form method="GET" action="http://echo.htmlacademy.ru">
+            <fieldset>
+              <legend>Инфраструктура:</legend>
+                <ul>
+                  <li>
+                    <input type="checkbox" name="pool" id="filter-pool" checked>
+                    <label for="filter-pool">Бассейн</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="parking lot" id="filter-parking-lot">
+                    <label for="filter-parking-lot">Парковка</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="wi-fi" id="filter-wi-fi">
+                    <label for="filter-wi-fi">Wi-Fi</label>
+                  </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Тип жилья:</legend>
+                <ul>
+                  <li>
+                    <input type="checkbox" name="hotel" id="filter-hotel" checked>
+                    <label for="filter-hotel">Гостиница</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="motel" id="filter-motel" checked>
+                    <label for="filter-motel">Мотель</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="apartments" id="filter-apartments" checked>
+                    <label for="filter-apartments">Апартаменты</label>
+                  </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Стоимость в сутки, ₽:</legend>
+                <input type="range" min="0" max="3000" step="100" value="2700">
+            </fieldset>
+              <button type="submit">Показать</button>
+          </form>
         </section>
         <section>
-            <h2>Отфильтрованные гостиницы</h2>
+          <h2>Отфильтрованные гостиницы</h2>
             <p>Найдено: 3</p>
             <h3>Сортировка:</h3>
             <ul>
-                <li>
-                    <a>по цене</a>
-                </li>
-                <li>
-                    <a href="#">по типу</a>
-                </li>
-                <li>
-                    <a href="#">по рейтингу</a>
-                </li>
+              <li>
+                <a>по цене</a>
+              </li>
+              <li>
+                <a href="#">по типу</a>
+              </li>
+              <li>
+                <a href="#">по рейтингу</a>
+              </li>
+              <li>
                 <div>
                   <a href="#">Сортировать по возрастанию</a>
                   <a href="#">Сорировать по убыванию</a>
                 </div>
+              </li>
             </ul>
             <ul>
-                <li>
-                  <article>
-                    <div>
-                      <img src="https://via.placeholder.com/150x100" width="135" height="90" alt="Фото Amara Resort & Spa">
-                    </div>
-                    <div>
+              <li>
+                <article>
+                  <div>
+                    <img src="https://via.placeholder.com/150x100" width="135" height="90" alt="Фото Amara Resort & Spa">
+                  </div>
+                  <div>
                     <h3><a href="#">Amara Resort & Spa</a></h3>
-                      <p>Гостиница</p>
-                      <p>От 4000 ₽</p>
-                      <a href="#">Подробнее</a>
-                      <button type="button">Забронировать</button>
-                    </div>
-                    <div>
-                      <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
-                      <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
-                      <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
-                      <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
-                      <p>Рейтинг: 8,5</p>
-                    </div>
-                  </article>
-                </li>
-                <li>
-                  <article>
-                    <div>
+                    <p>Гостиница</p>
+                    <p>От 4000 ₽</p>
+                    <a href="#">Подробнее</a>
+                    <button type="button">Забронировать</button>
+                  </div>
+                  <div>
+                    <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
+                    <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
+                    <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
+                    <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
+                    <p>Рейтинг: 8,5</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div>
                     <img src="https://via.placeholder.com/150x100" width="135" height="90" alt="Фото Amara Resort & Spa">
-                    </div>
-                    <div>
+                  </div>
+                  <div>
                     <h3><a href="#">Desert Quail Inn</a></h3>
-                      <p>Мотель</p>
-                      <p>От 3000 ₽</p>
-                      <a href="#">Подробнее</a>
-                      <button type="button">Забронировать</button>
-                    </div>
-                    <div>
-                      <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
-                      <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
-                      <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
-                      <p>Рейтинг: 8,9</p>
-                    </div>
-                  </article>
-                </li>
-                <li>
-                  <article>
-                    <div>
+                    <p>Мотель</p>
+                    <p>От 3000 ₽</p>
+                    <a href="#">Подробнее</a>
+                    <button type="button">Забронировать</button>
+                  </div>
+                  <div>
+                    <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
+                    <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
+                    <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
+                    <p>Рейтинг: 8,9</p>
+                  </div>
+                </article>
+              </li>
+              <li>
+                <article>
+                  <div>
                     <img src="https://via.placeholder.com/150x100" width="135" height="90" alt="Фото Amara Resort & Spa">
-                    </div>
-                    <div>
+                  </div>
+                  <div>
                     <h3><a href="#">Villas at Poco Diablo</a></h3>
-                      <p>Апартаменты</p>
-                      <p>От 2000 ₽</p>
-                      <a href="#">Подробнее</a>
-                      <button type="button">Забронировать</button>
-                    </div>
-                    <div>
-                      <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
-                      <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
-                      <p>Рейтинг: 9,2</p>
-                    </div>
-                  </article>
-                </li>
+                    <p>Апартаменты</p>
+                    <p>От 2000 ₽</p>
+                    <a href="#">Подробнее</a>
+                    <button type="button">Забронировать</button>
+                  </div>
+                  <div>
+                    <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
+                    <img src="https://via.placeholder.com/150x100" width="19" height="17" alt="Звёзда рейтинга">
+                    <p>Рейтинг: 9,2</p>
+                  </div>
+                </article>
+              </li>
             </ul>
         </section>
     </main>
@@ -173,6 +175,6 @@
         <span>website by</span>
         <img src="https://htmlacademy.ru" width="115" height="33" alt="Ссылка на HTML Academy">
       </p>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
